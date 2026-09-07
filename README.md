@@ -1,5 +1,14 @@
 # Early Type 2 Diabetes Risk Classifier. 
 
+---
+
+## What is type 2 diabetes?!
+Type 2 diabetes, the most common type of diabetes, is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes mainly from the food you eat. Insulin, a hormone made by the pancreas, helps glucose get into your cells to be used for energy. In type 2 diabetes, your body doesn’t make enough insulin or doesn’t use insulin well. Too much glucose then stays in your blood, and not enough reaches your cells.
+
+You can develop type 2 diabetes at any age, even during childhood. However, type 2 diabetes occurs most often in middle-aged and older people. You are more likely to develop type 2 diabetes if you are age 45 or older, have a family history of diabetes, or are overweight or have obesity. Diabetes is more common in people who are African American, Hispanic/Latino, American Indian, Asian American, or Pacific Islander.
+
+---
+
 ## Project Description.
 Type 2 diabetes often develops quietly over several years. By the time symptoms appear, high blood sugar levels may have already impacted heart, kidney or eye health. While blood tests are the definitive way to diagnose diabetes, universal screening is difficult to scale—especially in communities with limited access to affordable healthcare clinics. This project addresses that challenge by building a machine learning model that estimates diabetes risk using simple, non-invasive health metrics and lifestyle survey responses.
 
@@ -45,14 +54,23 @@ Columns:-
 
 ## ML Workflow
 i) Problem Definition.
+
 ii) Data Collection
+
 iii) Data Cleaning and Preprocessing.
+
 iv) Exploratory Data Analysis
+
 v) Feature Engineering and Selection.
+
 vi) Model Selction.
+
 vii) Model Training.
+
 viii) Model Evaluation and Tuning.
+
 ix) Model Deployment.
+
 x) Model Monitoring and Maintenanace.
 
 ---
