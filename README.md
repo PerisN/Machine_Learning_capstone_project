@@ -24,14 +24,16 @@ Kenya is facing a rapidly worsening diabetes crisis, with health experts warning
 Current estimates suggest 813,300 Kenyan adults (3.1%) live with diabetes, but experts believe the actual prevalence is closer to 3.3–4.5%. Globally, 589 million adults have diabetes, with 252 million undiagnosed—most in low  and middle income countries where access to early testing remains limited. The High Cost of Late Diagnosis In Kenya, many patients only learn they are diabetic after developing serious complications. It is noted that,
 - 60–70% of hospital admissions are linked to diabetes complications.
 - 80% of dialysis patients suffer from diabetes related kidney failure.
+
 These late presentations place enormous strain on an already overstretched health system. Urbanisation, Diet and Lifestyle Kenya’s diabetes surge is strongly tied to rapid urbanisation, sedentary habits and increased consumption of high sugar and high fat foods. According to KUTRRH endocrinologist Dr. Caroline Mithi: “Sedentary lifestyle, excessive smoking, alcohol intake, lack of exercise, and high-carbohydrate, high-fat diets are the main factors driving diabetes.” Younger adults are increasingly being diagnosed with type 2 diabetes sometimes as early as age 30 prompting experts to recommend baseline screening from age 30, with annual checks thereafter.
 
 ---
 
 ## Project Goal
 Develop a 3-class classification model leveraging the CDC’s BRFSS dataset to detect early-to-advanced metabolic dysfunction.Key Deliverables:
-> - Multi-Class Prediction: Differentiate between Healthy ($0$), Prediabetic ($1$), and Diabetic ($2$) states using a curated 12-feature subset of non-invasive biological, behavioral, and demographic indicators.
-> - Early Interception Focus: Optimize classification thresholds and class weights to maximize the detection rate (Recall) of prediabetic individuals, enabling early lifestyle intervention before chronic complications occur.> - Feature Interpretability: Apply feature importance analysis (such as SHAP values) to identify the primary behavioral and clinical metrics driving transitions between metabolic stages.
+- Multi-Class Prediction: Differentiate between Healthy ($0$), Prediabetic ($1$), and Diabetic ($2$) states using a curated 12-feature subset of non-invasive biological, behavioral, and demographic indicators.
+- Early Interception Focus: Optimize classification thresholds and class weights to maximize the detection rate (Recall) of prediabetic individuals, enabling early lifestyle intervention before chronic complications occur.
+- Feature Interpretability: Apply feature importance analysis (such as SHAP values) to identify the primary behavioral and clinical metrics driving transitions between metabolic stages.
 
 ---
 
@@ -68,7 +70,7 @@ Columns:-
 - Classification problem - early detection of Type 2 Diabetes.
 
 1. Target Variable 
-> - (Diabetes_012) - 0 = no diabetes, 1 = prediabetes, 2 = diabetes
+- (Diabetes_012) - 0 = no diabetes, 1 = prediabetes, 2 = diabetes
 
 2. Feature variables
 Features to use
