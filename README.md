@@ -3,7 +3,7 @@
 ---
 
 ## What is type 2 diabetes?!
-Type 2 diabetes, the most common type of diabetes, is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes mainly from the food you eat. Insulin, a hormone made by the pancreas, helps glucose get into your cells to be used for energy. In type 2 diabetes, your body doesn’t make enough insulin or doesn’t use insulin well. Too much glucose then stays in your blood, and not enough reaches your cells.
+Type 2 diabetes, the most common type of diabetes, is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes mainly from the food you eat. Insulin, a hormone made by the pancreas, helps glucose get into your cells to be used for energy. In type 2 diabetes, your body doesn’t make enough insulin or doesn’t use insulin well. Too much glucose then stays in your blood and not enough reaches your cells.
 
 You can develop type 2 diabetes at any age, even during childhood. However, type 2 diabetes occurs most often in middle-aged and older people. You are more likely to develop type 2 diabetes if you are age 45 or older, have a family history of diabetes, or are overweight or have obesity. Diabetes is more common in people who are African American, Hispanic/Latino, American Indian, Asian American, or Pacific Islander.
 
@@ -26,7 +26,7 @@ While early lifestyle modifications can effectively halt disease progression, tr
 ---
 
 ## Dataset
-- Remote source: Diabetes Health Indictaors Dataset - https://www.kaggle.com/code/alexteboul/diabetes-health-indicators-dataset-notebook
+- Remote source: Diabetes Health Indictaors Dataset - https://www.kaggle.com/alexteboul/diabetes-health-indicators-dataset
 - Size: 253,680 survey responses, 22 columns
 Columns:-
 > - Diabetes_012 (0 = no diabetes, 1 = prediabetes, 2 = diabetes)
