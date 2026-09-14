@@ -60,7 +60,7 @@ Columns:-
 > - PhysHlth (Physical health: scale 1-30 days, for how many days during the past 30 days was your physical health not good?)
 > - DiffWalk (Difficulty Walking): Do you have serious difficulty walking or climbing stairs? 0 = no 1 = yes
 > - Sex (0 = female, 1 = male)
-> - Age (scale 1 = 18-24, 9 = 60-64, 13 = 80 or older)
+> - Age (scale 1 = 18-24, 9 = 60-64, 11 = 65-78, 13 = 80 or older)
 > - Education (Education level) (EDUCA see codebook) scale 1-6 1 = Never attended school or only kindergarten 2 = Grades 1 through 8 (Elementary) 3 = Grades 9 through 11 (Some high school) 4 = Grade 12 or GED (High school graduate) 5 = College 1 year to 3 years (Some college or technical school) 6 = College 4 years or more (College graduate)
 > - Income (Income scale: scale 1-8, 1 = less than $10,000, 5 = less than $35,000, 8 = $75,000 or more)
 
@@ -89,7 +89,6 @@ Features to use
 
 Features to drop
 > - Smoker and HvyAlcoholConsump - While relevant to overall lifestyle, their direct mathematical correlation with distinguishing prediabetes specifically is very noisy in BRFSS survey data.
-> - HeartDiseaseorAttack
 > - CholCheck - Over $95\%$ of survey participants report having had a cholesterol check in the last 5 years, making this column almost entirely redundant with HighChol.
 > - Fruits and Veggies - Binary answers like "eating fruit 1+ times a day" do not contain enough statistical nuance to distinguish prediabetes from diabetes.
 > - AnyHealthcare and NoDocbcCost - Extremely low variance across respondents; they add noise rather than useful predictive signals.
@@ -108,11 +107,11 @@ iv) Exploratory Data Analysis
 
 v) Feature Engineering and Selection.
 
-vi) Model Selction.
+vi) Model SelEction.
 
 vii) Model Training.
 
-viii) Model Evaluation and Tuning.
+viii) Model Evaluation and Hyperparameter Tuning.
 
 ix) Model Deployment.
 
@@ -126,11 +125,11 @@ Python
 - scikit-learn
 
 Models
-- Logistic Regression
-- SVM
-- KNN
-- Random Forest
-- XGBoost
+- Logistic Regression (Linear classifier)
+- SVM (linear classifier)
+- KNN (Non-linear classifier)
+- Random Forest (Non-linear classifier)
+- XGBoost ()
 
 Imbalanced-learn
 - SMOTE - oversampling minority severity classes to address class imbalance..
